@@ -139,7 +139,8 @@ int main() {
     }
     */
 
-    /*Monster m1;
+    /*
+    Monster m1;
     Dungeon("pepe",m1);
 
     LinkedList<Dungeon> prueba;
@@ -156,14 +157,15 @@ int main() {
     map.initializeMap(prueba2);
     cout << "------" <<endl;
     map.displayMap();
-    cout << "-------" << endl;*/
+    cout << "-------" << endl;
+    //*/
   
     
-
+    ///*
     LinkedList<Monster> monsterList;
     LoadMonsters("monsters_mini.csv", monsterList);
     
-    int maxDungeons = 20;
+    int maxDungeons = 3;
     Map map(maxDungeons);
     cout << "maxDungeons: " << maxDungeons << endl;
     cout << "Monsters number: " << monsterList.getSize() << endl;
@@ -171,7 +173,7 @@ int main() {
     map.initializeMap(monsterList);
     cout << "1" << endl;
     
-    
+    //*/
     /*map.initializeMap(monsterList);
     cout<<"------"<<endl;
     cout<<"Hello"<<endl;
