@@ -174,6 +174,7 @@ int main() {
     cout << "Monsters: " << endl;
     map.initializeMap(monsterList);
     cout << "1" << endl;
+    map.displayMap();
     
     //*/
     /*map.initializeMap(monsterList);
