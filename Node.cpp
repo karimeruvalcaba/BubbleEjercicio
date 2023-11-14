@@ -10,6 +10,7 @@ using namespace std;
 template <typename T>
 Node<T>::Node(T data) { 
     this->data = data; 
+    this->next=nullptr;
 }
 template <typename T>
 void Node<T>::setData(T data) { 

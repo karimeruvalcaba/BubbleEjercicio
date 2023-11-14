@@ -114,11 +114,13 @@ void ShowAbility(LinkedList<Ability>& AbilityBook, int quantityAbility) {
 
 int main() {
     
-   /* int QuantityMonsters = 0; // Initialize to 0 since you're loading the monsters from a file
+   /* 
+   int QuantityMonsters = 0; // Initialize to 0 since you're loading the monsters from a file
     LinkedList<Monster> list;
     LoadMonsters("monsters_patched.csv", list);
     cout<<QuantityMonsters<<endl;
-    ShowMonsters(list, QuantityMonsters);*/
+    ShowMonsters(list, QuantityMonsters);
+    */
     
     /*
     int quantitySpells=0;
@@ -161,11 +163,11 @@ int main() {
     //*/
   
     
-    ///*
+    //*
     LinkedList<Monster> monsterList;
-    LoadMonsters("monsters_mini.csv", monsterList);
+    LoadMonsters("monsters_patched.csv", monsterList);
     
-    int maxDungeons = 3;
+    int maxDungeons = 20;
     Map map(maxDungeons);
     cout << "maxDungeons: " << maxDungeons << endl;
     cout << "Monsters number: " << monsterList.getSize() << endl;

@@ -37,14 +37,17 @@ int LinkedList<T>::find(T data){
 }
 template <typename T>
 void LinkedList<T>::addNode(T data){
+    //cout<<data<<endl;
     Node<T>* newNode = new Node<T>(data);
     if (!first) {
         first = newNode;
     } else {
         Node<T>* current = first;
         while (current->getNext()) {
+            //cout<<"Aqui llega"<<endl;
             current = current->getNext();
         }
+        cout<<"Aqui llega"<<endl;
         current->setNext(newNode);
     }
 }
