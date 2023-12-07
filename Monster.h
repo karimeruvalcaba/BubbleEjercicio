@@ -44,7 +44,7 @@ using namespace std;
   
           int operator >(Monster m){
             if (this->name!=m.name){
-              return this->cr>m.cr; 
+              return this->name>m.name; 
             }else {
               return this->cr>m.cr;
             }

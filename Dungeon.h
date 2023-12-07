@@ -22,7 +22,7 @@ class Dungeon{
 
     
         friend ostream& operator<<(ostream& os, const Dungeon& m){
-            os<<"  Name: "<<m.name<<", Monster inside this dungeon: "<<m.MonsterInDungeon<<endl;
+            os<<m.name<<", Monster inside this dungeon: "<<m.MonsterInDungeon<<endl;
             return os;
         }
 

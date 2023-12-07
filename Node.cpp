@@ -1,7 +1,6 @@
 #include "Node.h"
 #include "Monster.h"
-#include "Spell.h"
-#include "Ability.h"
+#include "SpellAndAbility.h"
 #include "Dungeon.h"
 #include "Map.h"
 #include <iostream>
@@ -37,7 +36,5 @@ void Node<T>::print() {
 
 template class Node<int>;
 template class Node<Monster>;
-template class Node<Spell>;
-template class Node<Ability>;
+template class Node<SpellAndAbility>;
 template class Node<Dungeon>;
-//template class Node<Map>;
